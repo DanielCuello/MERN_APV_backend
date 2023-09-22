@@ -15,7 +15,7 @@ const { email, nombre, token} = datos;
 // Enviar el email
 
 const info = await transporter.sendMail({
-    from: '"APV - Administrador Pacientes Veterinaria" <danielbj38@gmail.com>'
+    from: '"APV - Administrador Pacientes Veterinaria" <danielbj38@gmail.com>',
     to: email, 
     subject: 'Comprueba tu cuenta en APV',
     text:'Comprueba tu cuenta en APV',
